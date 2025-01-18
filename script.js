@@ -1,8 +1,8 @@
 // Data dummy, bisa diganti dengan API backend
 const articles = [
-    { title: "Artikel 1", summary: "Ringkasan artikel 1" },
-    { title: "Artikel 2", summary: "Ringkasan artikel 2" },
-    { title: "Artikel 3", summary: "Ringkasan artikel 3" },
+    { title: "Larangan Syirik", summary: "Ringkasan artikel 1" },
+    { title: "Makna La ilaaha illallah", summary: "Ringkasan artikel 2" },
+    { title: "Rukun kalimat Syahadat", summary: "Ringkasan artikel 3" },
     { title: "Artikel 4", summary: "Ringkasan artikel 4" },
     { title: "Artikel 5", summary: "Ringkasan artikel 5" },
     { title: "Artikel 6", summary: "Ringkasan artikel 6" },

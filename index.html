@@ -25,6 +25,19 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+    <style>
+        /* Tambahkan CSS untuk styling */
+        .article {
+            margin-bottom: 20px;
+        }
+        .pagination {
+            margin-top: 20px;
+        }
+        .pagination button {
+            margin: 5px;
+            padding: 10px;
+        }
+    </style>
 
   <!-- =======================================================
   * Template Name: Arsha
@@ -219,51 +232,7 @@ Wassalamu’alaikum warahmatullahi wabarakatuh.
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>5. Apa platform yang digunakan untuk pengembangan aplikasi?</h3>
-                <div class="faq-content">
-                  <p>Kami menggunakan teknologi terbaru seperti Flutter, React Native, Laravel, Node.js, dan Django. Pemilihan teknologi disesuaikan dengan kebutuhan proyek Anda.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-              
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>6. Apakah saya mendapatkan support setelah proyek selesai?</h3>
-                <div class="faq-content">
-                  <p>Ya, kami menyediakan layanan pemeliharaan dan dukungan teknis pasca-proyek. Tim kami siap membantu jika ada masalah atau kebutuhan pembaruan di masa mendatang.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-              
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>7. Apakah kalian menawarkan optimasi SEO untuk website?</h3>
-                <div class="faq-content">
-                  <p>Ya, kami menyediakan layanan optimasi SEO untuk meningkatkan visibilitas website Anda di mesin pencari seperti Google, sehingga dapat membantu mendatangkan lebih banyak pengunjung.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-              
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>8. Bagaimana proses kerja sama dengan perusahaan ini?</h3>
-                <div class="faq-content">
-                  <p>Proses kerja sama kami meliputi:<br/>
-                  </p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-              
-              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>9. Bagaimana saya bisa memulai proyek dengan kalian?</h3>
-                <div class="faq-content">
-                  <p>Anda bisa langsung menghubungi kami melalui email atau nomor telepon yang tertera di halaman Contact Us. Kami akan segera mengatur jadwal diskusi awal untuk memahami kebutuhan Anda.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
+             
 
             </div>
 
@@ -273,6 +242,32 @@ Wassalamu’alaikum warahmatullahi wabarakatuh.
 
       </div>
 
+    </section><!-- /Faq 2 Section -->
+    
+    
+    <!-- AQIDAH -->
+    <section id="akidah" class="faq-2 section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>AQIDAH</h2>
+      <!--  <p>Berikut adalah beberapa pertanyaan yang sering diajukan oleh klien kami. Jika Anda memiliki pertanyaan lain, jangan ragu untuk menghubungi kami.</p>-->
+      </div><!-- End Section Title -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="faq-container">
+               <div id="articles">
+        <!-- Artikel akan dimuat di sini -->
+                </div>
+                <div class="pagination">
+                    <button id="prev" disabled class="btn btn-sm">Previous</button>
+                    <button id="next" class="btn btn-sm">Next</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section><!-- /Faq 2 Section -->
 
    
@@ -521,7 +516,7 @@ Wassalamu’alaikum warahmatullahi wabarakatuh.
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script src="script.js"></script>
 </body>
 
 </html>
