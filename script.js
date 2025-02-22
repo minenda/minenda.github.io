@@ -1,13 +1,21 @@
 // Data dummy, bisa diganti dengan API backend
 const articles = [
-    { title: "Larangan Syirik", summary: "Ringkasan artikel 1" },
-    { title: "Makna La ilaaha illallah", summary: "Ringkasan artikel 2" },
-    { title: "Rukun kalimat Syahadat", summary: "Ringkasan artikel 3" },
-    { title: "Artikel 4", summary: "Ringkasan artikel 4" },
-    { title: "Artikel 5", summary: "Ringkasan artikel 5" },
-    { title: "Artikel 6", summary: "Ringkasan artikel 6" },
-    { title: "Artikel 7", summary: "Ringkasan artikel 7" },
-    { title: "Artikel 8", summary: "Ringkasan artikel 8" },
+    { title: "<h4><b>Larangan Syirik</b></h4>", summary: 
+	"Syirik yaitu menyamakan makhluk dengan Allah dalam hal-hal yang menjadi kekhususan Allah ta'ala <a href='rukunIman/iman_kepada_allah.html'>Selanjutnya</a>" },
+    { title: "<h4><b>Makna La ilaaha illallah</b></h4>", summary: 
+	"Ringkasan artikel 2" },
+    { title: "<h4><b>Rukun kalimat Syahadat</b></h4>", summary: 
+	"Ringkasan artikel 3" },
+    { title: "<h4><b>Artikel 4</b></h4>", summary: 
+	"Ringkasan artikel 4" },
+    { title: "<h4><b>Artikel 4</b></h4>", summary: 
+	"Ringkasan artikel 5" },
+    { title: "<h4><b>Artikel 4</b></h4>", summary: 
+	"Ringkasan artikel 6" },
+    { title: "<h4><b>Artikel 4</b></h4>", summary: 
+	"Ringkasan artikel 7" },
+    { title: "<h4><b>Artikel 4</b></h4>", summary: 
+	"Ringkasan artikel 8" },
 ];
 
 let currentPage = 1;
