@@ -12,8 +12,13 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
+<<<<<<< HEAD
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Nunito",  sans-serif;
+=======
+  --default-font: "Open Sans",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Jost",  sans-serif;
+>>>>>>> d4ce68be2770ce00f0ca5ca5134705b3bfbbe52e
   --nav-font: "Poppins",  sans-serif;
 }
 
